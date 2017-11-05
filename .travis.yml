@@ -2,3 +2,11 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy: mysterious-beach-78371
+  provider: heroku
+  api_key:
+    secure: f60D7Ug0vMWFFlUxhQ7Z3aah29t05XvTLRRWql6ey6NcDTdU7gXrf8g0/16UETzcs0aiQwZVIOB0g+gS/Wdy1CWcFxS6ILhq+M+lREuFa9zwXPNBJqOPGM3F1FsDXy0IkFeXXaamRjD7QgML1go3h/lok0ts8uPkLOhVgX3G3sjMlBVG1Kq24eyGIfXb1MkEgsyBbwfX6cF8pBu81jJAQUZ7NET3cuDlLh/V5+lOQPDa8CL1nF8niUgSH4OwALsVvZ9m6QIwuXhigbLi+6wzASJ6+Y3UtZqb50660iR3RL7/GfcQ24at51k/FsScGLnh+g8U33YTcggta7p5FixNJ4OB2L2yTQlC6ZNhELPQGyDZHxxXy1ZhgXq2iXVEcFY1kLxUKMnhl8XIbgJ0nPuv6vAkXdbZkYona6mQElAMHhLZkEyjQFe4XePur4bfPUaJilgkEpeCAznZN5gpuWbCqnTl8JLxM2jf6EYCEFUn0sdiEmDCQ+Gvvj21v6DPoXqbgdlBqO9swZD4k6mXD5qPtWSoqTFTCt4KGEtxzdEFBs2RRY3hKuzbvKNjtkARFPerv35VsS/ZaBR/+kae+8c7PLwNzXVgaYv7dmNmYE9xzOQZ1098b21b1mZiNazXPSRn4J1ujUJjjKOYJBD/41urHvs87bP8ViC1JmDE5Xh7NyA=
+  app: ancient-harbor-19979
+  on:
+    repo: inakajin/node-restaurants-app-mongoose
+    branch: feature/with-tests
